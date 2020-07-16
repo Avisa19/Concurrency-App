@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CurrencyRequest/CRCurrencyRequest.h"
+#import "CurrencyRequest/CRCurrencyResults.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *inputField;
