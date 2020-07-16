@@ -19,6 +19,9 @@
                                 <rect key="frame" x="148.5" y="421.5" width="117" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Convert"/>
+                                <connections>
+                                    <action selector="button_Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VEJ-A6-ery"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter an amount in US Dollor" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Obn-LK-7em">
                                 <rect key="frame" x="20" y="363" width="374" height="34"/>

@@ -18,11 +18,13 @@
 @end
 
 @implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+- (IBAction)button_Tapped:(id)sender {
+    self.convertButton.enabled = NO;
+    self.currencyA.text = @"A";
+    self.currencyB.text = @"B";
+    self.currencyC.text = @"C";
 }
+
 
 
 @end
