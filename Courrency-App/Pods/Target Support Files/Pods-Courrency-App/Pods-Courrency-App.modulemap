@@ -1,0 +1,6 @@
+framework module Pods_Courrency_App {
+  umbrella header "Pods-Courrency-App-umbrella.h"
+
+  export *
+  module * { export * }
+}

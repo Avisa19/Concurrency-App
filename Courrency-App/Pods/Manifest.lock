@@ -1,0 +1,16 @@
+PODS:
+  - CurrencyRequest (0.1.0)
+
+DEPENDENCIES:
+  - CurrencyRequest
+
+SPEC REPOS:
+  trunk:
+    - CurrencyRequest
+
+SPEC CHECKSUMS:
+  CurrencyRequest: a82e37b3a1a7480164db50790ccd9583ee3aa954
+
+PODFILE CHECKSUM: 1a5446f9db1ad2d78ed7a82febc4e63ea2b99f5d
+
+COCOAPODS: 1.9.3
