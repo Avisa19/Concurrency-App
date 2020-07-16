@@ -9,6 +9,11 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *inputField;
+@property (weak, nonatomic) IBOutlet UIButton *convertButton;
+@property (weak, nonatomic) IBOutlet UILabel *currencyA;
+@property (weak, nonatomic) IBOutlet UILabel *currencyB;
+@property (weak, nonatomic) IBOutlet UILabel *currencyC;
 
 @end
 

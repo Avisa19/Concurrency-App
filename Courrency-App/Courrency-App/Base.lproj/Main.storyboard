@@ -93,6 +93,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="convertButton" destination="bQh-ct-f8v" id="hPK-85-tdI"/>
+                        <outlet property="currencyA" destination="SVR-WT-uL6" id="omc-dD-eUi"/>
+                        <outlet property="currencyB" destination="zFd-87-sil" id="U0y-1d-Yxs"/>
+                        <outlet property="currencyC" destination="8Yx-e6-Udp" id="crv-g6-iwJ"/>
+                        <outlet property="inputField" destination="Obn-LK-7em" id="Yob-Ea-aAF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
