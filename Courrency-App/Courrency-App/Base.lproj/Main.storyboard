@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQh-ct-f8v">
-                                <rect key="frame" x="149" y="421.5" width="117" height="53"/>
+                                <rect key="frame" x="148.5" y="421.5" width="117" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Convert"/>
                                 <connections>
@@ -24,7 +24,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter an amount in US Dollor" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Obn-LK-7em">
-                                <rect key="frame" x="20" y="363" width="374.5" height="34"/>
+                                <rect key="frame" x="20" y="363" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -40,7 +40,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHk-9G-ETg">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JPY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHk-9G-ETg">
                                                 <rect key="frame" x="0.0" y="55" width="66" height="41"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                                 <nil key="textColor"/>
@@ -82,13 +82,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="bQh-ct-f8v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JpT-AB-cSJ"/>
-                            <constraint firstItem="bQh-ct-f8v" firstAttribute="centerX" secondItem="sfn-R3-j32" secondAttribute="centerX" id="akO-dh-zQL"/>
-                            <constraint firstItem="Obn-LK-7em" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eFY-ux-tDw"/>
-                            <constraint firstItem="sfn-R3-j32" firstAttribute="top" secondItem="bQh-ct-f8v" secondAttribute="bottom" constant="46.5" id="ogP-NU-Lft"/>
-                            <constraint firstItem="Obn-LK-7em" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="319" id="tIq-AO-n5T"/>
-                            <constraint firstItem="sfn-R3-j32" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104" id="uS9-Jd-yTx"/>
-                            <constraint firstItem="Obn-LK-7em" firstAttribute="centerX" secondItem="bQh-ct-f8v" secondAttribute="centerX" id="yk0-bx-OcK"/>
+                            <constraint firstItem="Obn-LK-7em" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="319" id="A6T-CE-B9O"/>
+                            <constraint firstItem="Obn-LK-7em" firstAttribute="centerX" secondItem="sfn-R3-j32" secondAttribute="centerX" id="HuQ-Ob-4h6"/>
+                            <constraint firstItem="sfn-R3-j32" firstAttribute="top" secondItem="bQh-ct-f8v" secondAttribute="bottom" constant="46.5" id="Pqt-nU-vEv"/>
+                            <constraint firstItem="bQh-ct-f8v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="g4U-vQ-z1s"/>
+                            <constraint firstItem="Obn-LK-7em" firstAttribute="centerX" secondItem="bQh-ct-f8v" secondAttribute="centerX" id="iX5-wA-uzn"/>
+                            <constraint firstItem="bQh-ct-f8v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lIp-vO-9Ru"/>
+                            <constraint firstItem="Obn-LK-7em" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="m9M-iR-dZo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

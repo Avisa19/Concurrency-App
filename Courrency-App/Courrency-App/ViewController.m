@@ -25,7 +25,7 @@
 
 
 - (IBAction)button_Tapped:(id)sender {
-    
+    // send request and active delegate for transfer data
     self.req = [[CRCurrencyRequest alloc] init];
     self.req.delegate = self;
     
@@ -36,11 +36,23 @@
 
 - (void)currencyRequest:(CRCurrencyRequest *)req
     retrievedCurrencies:(CRCurrencyResults *)currencies {
+    
     self.convertButton.enabled = YES;
     double intValue = [self.inputField.text floatValue];
+    
+    // Euro
     double euroValue = intValue * currencies.EUR;
-    NSString *temp = [NSString stringWithFormat:@"%.2f", euroValue];
-    self.currencyA.text = temp;
+    NSString *euroStr = [NSString stringWithFormat:@"%.2f", euroValue];
+    self.currencyA.text = euroStr;
+    // JPY
+    double jpyValue = intValue * currencies.JPY;
+    NSString *jpyStr = [NSString stringWithFormat:@"%.2f", jpyValue];
+    self.currencyB.text = jpyStr;
+    // BGN
+    double bgnValue = intValue * currencies.BGN;
+    NSString *bgnStr = [NSString stringWithFormat:@"%.2f", bgnValue];
+    self.currencyC.text = bgnStr;
+    
 }
 
 
