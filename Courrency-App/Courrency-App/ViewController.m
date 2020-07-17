@@ -11,6 +11,8 @@
 #import "CurrencyRequest/CRCurrencyResults.h"
 
 @interface ViewController ()
+
+@property (nonatomic) CRCurrencyRequest *req;
 @property (weak, nonatomic) IBOutlet UITextField *inputField;
 @property (weak, nonatomic) IBOutlet UIButton *convertButton;
 @property (weak, nonatomic) IBOutlet UILabel *currencyA;
@@ -20,7 +22,10 @@
 @end
 
 @implementation ViewController
+
 - (IBAction)button_Tapped:(id)sender {
+    
+    self.req = [[CRCurrencyRequest alloc] init];
     self.convertButton.enabled = NO;
     self.currencyA.text = @"A";
     self.currencyB.text = @"B";
